@@ -1,0 +1,5 @@
+anthropic
+chromadb
+streamlit
+pypdf
+python-dotenv
