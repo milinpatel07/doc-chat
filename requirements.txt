@@ -1,5 +1,6 @@
-anthropic
+openai
 chromadb
 streamlit
 pypdf
+python-docx
 python-dotenv

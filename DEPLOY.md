@@ -1,14 +1,14 @@
 # Putting it online so you can share a link
 
-Because each person uses their own key, there's no secret for you to hide,
-which makes this simple. You put the code in a public GitHub repo and let
+Because each person uses their own free NVIDIA key, there's no secret for you
+to hide, which makes this simple. You put the code in a public GitHub repo and let
 Streamlit host it for free. About fifteen minutes the first time.
 
 What you end up with: a link like https://doc-chat.streamlit.app that
 anyone can open in a browser, on a phone or a laptop, nothing to install.
-They paste their own Anthropic key, upload a document, and ask questions.
-Each person's documents stay in their own session and are never shared
-with anyone else.
+They paste their own free NVIDIA key (from build.nvidia.com), upload a
+document, and ask questions. Each person's documents stay in their own
+session and are never shared with anyone else.
 
 ## 1. Make a GitHub account
 
@@ -63,6 +63,8 @@ requirements.txt).
 ## A word on your institute's rules
 
 Anyone with the link can use it, and the documents they upload get sent in
-pieces to Anthropic under their own key. That's fine for public or
-non-sensitive material. For confidential or unpublished work, keep it
-local or on your own server instead of the public link.
+pieces to NVIDIA under their own key. Free tiers may use what you
+send to improve their models, so this is fine for public or non-sensitive
+material only. For confidential or unpublished work, use a provider that
+doesn't train on your data (such as paid Anthropic) or run it fully local
+with a model like Ollama, and don't use the public link.

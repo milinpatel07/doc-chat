@@ -53,18 +53,21 @@ After the activate line you'll see (docchat) at the start of the prompt.
 That means you're in the right place. The install takes a couple of
 minutes.
 
-## 5. Get your Anthropic key
+## 5. Get your free NVIDIA key
 
-Go to console.anthropic.com, sign in, find "API keys", create one, copy it.
+Go to build.nvidia.com, sign in (no credit card needed), open
+build.nvidia.com/settings/api-keys, click to create a key, and copy it. It
+starts with nvapi-. Treat it like a password: don't paste it into chats or
+commit it to GitHub.
 
 You don't have to put it in a file. When the app opens (next step), there's
 a box in the sidebar where you paste the key. It's used only for your
 session and isn't saved anywhere.
 
 Optional, so you don't retype it every time you run it locally: make a file
-called .env in the doc-chat folder with one line,
-ANTHROPIC_API_KEY=your-key. Easiest is to create it inside VS Code, because
-Windows otherwise likes to secretly name it .env.txt, which won't work.
+called .env in the doc-chat folder with one line, LLM_API_KEY=your-key.
+Easiest is to create it inside VS Code, because Windows otherwise likes to
+secretly name it .env.txt, which won't work.
 
 ## 6. Run it
 
