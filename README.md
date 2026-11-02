@@ -140,3 +140,7 @@ change.
 - .env              optional: your saved key and library mode (never uploaded)
 - library/          library mode: saved index and PDFs (never uploaded)
 - chat_logs/        library mode: saved chats (never uploaded)
+
+## Licence
+
+MIT, see [LICENSE](LICENSE).
