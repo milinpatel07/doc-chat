@@ -74,7 +74,7 @@ Round 3: research features
 - Export citations to BibTeX or Zotero.
 - OCR for scanned PDFs, PowerPoint and LaTeX files, web pages by URL.
 - Extend eval.py to measure answer quality, not only page hits.
-- Library access from Claude Code and other tools through MCP.
+- Library access from other tools through MCP (Model Context Protocol).
 
 Round 4: running it for a group
 - A Docker image for the institute server, with a local model, so
